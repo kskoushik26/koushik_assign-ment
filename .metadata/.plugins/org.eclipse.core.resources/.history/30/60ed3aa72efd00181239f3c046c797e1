@@ -1,0 +1,9 @@
+package com.koushik.myAssignment;
+
+public class Customer 
+{
+	public int customerId;
+	public String customerName;
+	public int customerContact;
+	public String customerAddress;
+}

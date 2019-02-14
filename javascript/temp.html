@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> temparature scale</title>
+<script>
+ function validate()
+{
+var a=document.myform.number.value;
+if (a==""|| isNaN(a))
+{
+alert("enter the number"); 
+return;
+}
+else
+{
+ a=a-32;
+}
+  document.write("temparature in celsius"+" " + a);
+}
+</script>
+</head>
+<body>
+<form name="myform">
+<input type="text" placeholder="enter the number" name="number">
+<button onclick="validate()">show Result</button>
+</form>
+</body>
+</html>
+

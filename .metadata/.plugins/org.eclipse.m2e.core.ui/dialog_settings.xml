@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\koushik\AssignmentRest3"/>
+			<item value="C:\koushik\AssignmentRest2"/>
+			<item value="C:\koushik\AssignmentRest1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.shophub2.controllers"/>
+			<item value="com.koushik.Assignment3Repeat"/>
+			<item value="com.koushik.AssignmentRest5"/>
+			<item value="com.koushik.AssignmentRest3"/>
+			<item value="com.koushik.AsiignmentRest3"/>
+			<item value="com.koushik.AssignmentRest2"/>
+			<item value="com.koushik.AssignmentRest1"/>
+			<item value="com.koushik.jdbcProject"/>
+			<item value="com.koushik.aopex"/>
+			<item value="com.koushik.helloworld"/>
+			<item value="com.koushik.hello"/>
+		</list>
+		<list key="groupId">
+			<item value="com.shophub2"/>
+			<item value="com.koushik"/>
+		</list>
+		<list key="artifactId">
+			<item value="Shophub2"/>
+			<item value="Assignment3Repeat"/>
+			<item value="AssignmentRest5"/>
+			<item value="AssignmentRest3"/>
+			<item value="AsiignmentRest3"/>
+			<item value="AssignmentRest2"/>
+			<item value="AssignmentRest1"/>
+			<item value="jdbcProject"/>
+			<item value="aopex"/>
+			<item value="helloworld"/>
+			<item value="hello"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

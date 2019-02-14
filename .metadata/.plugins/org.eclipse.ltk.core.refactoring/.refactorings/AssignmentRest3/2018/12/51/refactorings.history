@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;InformationResource.java&apos; to &apos;AssignmentRest3/src/main/java/com.koushik.AssignmentRest3.resource&apos;&#x0D;&#x0A;- Original project: &apos;AssignmentRest3&apos;&#x0D;&#x0A;- Destination element: &apos;AssignmentRest3/src/main/java/com.koushik.AssignmentRest3.resource&apos;&#x0D;&#x0A;- Original element: &apos;com.koushik.AssignmentRest3.information.InformationResource.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.koushik.AssignmentRest3.resource" element1="/src\/main\/java&lt;com.koushik.AssignmentRest3.information{InformationResource.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1545296004175" units="1" version="1.0"/>
+</session>

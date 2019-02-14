@@ -1,0 +1,191 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+   
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Register Form</title>
+<link rel="stylesheet" type="text/css" href="Style.css" />
+ </head>
+<body>
+<!--  --><%//request.getSession().removeAttribute("alreadyUser"); %>
+	<div class="main">
+    <p class="sign" align="center">Registration Page</p>
+    <form name="registration" class="form1" method="post" action="/ShopHub/MainServlet">
+      <label>${alreadyUser}</label>
+      <input class="un " type="text" id="name" placeholder="Enter User Name" name="userName" required><br>
+      <input class="un" type="email" id="mail" placeholder="Enter Email-Id" name="email"  required><br>
+        <input class="un" type="text"  placeholder="Enter Contact Number" name="contact" pattern="[0-9]{5}[-][0-9]{2}[-][0-9]{3}" required><br>
+      <input class="un" type="password" id="passwd" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password" required>
+      <input class="pass" type="password"  placeholder="Confirm Password" required><br>
+    <input type="hidden" name="checkForm"  value="signup"></input>
+      
+      <input type="submit" class="submit" onsubmit= "validateForm();" value="Sign Up"><br>
+     </form>
+     <br>
+     <br>
+       <div id="message">
+  <h5 align="left">Password must contain the following:</h5>
+  <p id="letter" class="invalid" align="left">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid" align="left">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid" align="left">A <b>number</b></p>
+  <p id="length" class="invalid" align="left">Minimum <b>8 characters</b></p>
+</div>
+    </div>	
+    
+    <script>
+    
+/* function formValidation()
+{
+var username = document.registration.name.value;
+var email = document.registration.email;
+var contact_number = document.registration.contact;
+{
+if(allLetter(username))
+{
+if(ValidateEmail(email))
+{
+if(Contact(number))	{
+} 
+}
+} 
+} */
+
+/* return false;
+}  */
+    
+
+	var myInput = document.getElementById("passwd");
+	var letter = document.getElementById("letter");
+	var capital = document.getElementById("capital");
+	var number = document.getElementById("number");
+	var length = document.getElementById("length");
+    var username = document.getElementById("name");
+    var email = document.getElementById("mail");
+    
+	// When the user clicks on the password field, show the message box
+	myInput.onfocus = function() {
+	  document.getElementById("message").style.display = "block";
+	}
+
+	// When the user clicks outside of the password field, hide the message box
+	myInput.onblur = function() {
+	  document.getElementById("message").style.display = "none";
+	}
+
+	// When the user starts to type something inside the password field
+	myInput.onkeyup = function() {
+	  // Validate lowercase letters
+	  var lowerCaseLetters = /[a-z]/g;
+	  if(myInput.value.match(lowerCaseLetters)) { 
+	    letter.classList.remove("invalid");
+	    letter.classList.add("valid");
+	  } else {
+	    letter.classList.remove("valid");
+	    letter.classList.add("invalid");
+	}
+
+	  // Validate capital letters
+	  var upperCaseLetters = /[A-Z]/g;
+	  if(myInput.value.match(upperCaseLetters)) { 
+	    capital.classList.remove("invalid");
+	    capital.classList.add("valid");
+	  } else {
+	    capital.classList.remove("valid");
+	    capital.classList.add("invalid");
+	  }
+
+	  // Validate numbers
+	  var numbers = /[0-9]/g;
+	  if(myInput.value.match(numbers)) { 
+	    number.classList.remove("invalid");
+	    number.classList.add("valid");
+	  } else {
+	    number.classList.remove("valid");
+	    number.classList.add("invalid");
+	  }
+
+	  // Validate length
+	  if(myInput.value.length >= 8) {
+	    length.classList.remove("invalid");
+	    length.classList.add("valid");
+	  } else {
+	    length.classList.remove("valid");
+	    length.classList.add("invalid");
+	  }
+	}
+
+	function validateForm()
+	{
+	 
+	 var x=document.forms["registration"]["userName"];
+	 if (x.value=="")
+	   {
+	 
+
+	 else if(x.value.length>20)
+	   {
+	   alert("First name cannot be greater than 20 characters.");
+	  x.value="";
+	  x.focus();
+	  return false;
+	   }
+	 else if ((!namepattern.test(x.value)))
+	   {
+	  alert("First name should contain only alphabets.");
+	  x.value="";
+	  x.focus();
+	  return false;
+	   }
+	}
+
+	/* function allLetter(username)
+	{ 
+	var letters = /^[A-Za-z]+$/;
+	if(uname.value.match(letters))
+	{
+	return true;
+	}
+	else
+	{
+	alert('Username must have alphabet characters only');
+	uname.focus();
+	return false;
+	}
+	}
+ */
+
+/* function Contact(number)
+{ 
+int number_check = /^\d{10}$/;	
+if(number.value.match(number_check))
+{
+return true;
+}
+else
+{
+alert('Username must have alphabet characters only');
+username.focus();
+return false;
+}
+} */
+
+
+/* function ValidateEmail(email){
+var mail= /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(email.value.match(mailformat))
+{
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+email.focus();
+return false;
+}
+} */
+</script>
+</body>
+</html>

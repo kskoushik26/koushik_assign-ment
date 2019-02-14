@@ -1,0 +1,40 @@
+src/com/java/order/AscendingOrder.java:5:	Header comments are required
+src/com/java/order/AscendingOrder.java:6:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/java/order/AscendingOrder.java:7:	Parameter 'args' is not assigned and could be declared final
+src/com/java/order/AscendingOrder.java:7:	Public method and constructor comments are required
+src/com/java/order/AscendingOrder.java:7:	The method 'main(String)' has a NCSS line count of 21.
+src/com/java/order/AscendingOrder.java:9:	Avoid variables with short names like sc
+src/com/java/order/AscendingOrder.java:9:	Local variable 'sc' could be declared final
+src/com/java/order/AscendingOrder.java:10:	System.out.println is used
+src/com/java/order/AscendingOrder.java:11:	Local variable 'length' could be declared final
+src/com/java/order/AscendingOrder.java:12:	Found 'DD'-anomaly for variable 'num' (lines '12'-'16').
+src/com/java/order/AscendingOrder.java:12:	Found 'DU'-anomaly for variable 'num' (lines '12'-'42').
+src/com/java/order/AscendingOrder.java:13:	System.out.println is used
+src/com/java/order/AscendingOrder.java:16:	Found 'DD'-anomaly for variable 'num' (lines '16'-'16').
+src/com/java/order/AscendingOrder.java:16:	Found 'DU'-anomaly for variable 'num' (lines '16'-'42').
+src/com/java/order/AscendingOrder.java:28:	Found 'DU'-anomaly for variable 'num' (lines '28'-'42').
+src/com/java/order/AscendingOrder.java:33:	System.out.println is used
+src/com/java/order/AscendingOrder.java:35:	Potential violation of Law of Demeter (method chain calls)
+src/com/java/order/AscendingOrder.java:35:	System.out.println is used
+src/com/java/order/AscendingOrder.java:37:	System.out.println is used
+src/com/java/order/AscendingOrder.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/com/java/order/AscendingOrder.java:39:	System.out.println is used
+src/com/java/order/Descorder.java:5:	Header comments are required
+src/com/java/order/Descorder.java:6:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/java/order/Descorder.java:7:	Parameter 'args' is not assigned and could be declared final
+src/com/java/order/Descorder.java:7:	Public method and constructor comments are required
+src/com/java/order/Descorder.java:7:	The method 'main(String)' has a NCSS line count of 19.
+src/com/java/order/Descorder.java:9:	Avoid variables with short names like n
+src/com/java/order/Descorder.java:9:	Use one line for each declaration, it enhances code readability.
+src/com/java/order/Descorder.java:10:	Avoid variables with short names like sc
+src/com/java/order/Descorder.java:10:	Local variable 'sc' could be declared final
+src/com/java/order/Descorder.java:11:	System.out.println is used
+src/com/java/order/Descorder.java:13:	Avoid variables with short names like a
+src/com/java/order/Descorder.java:13:	Found 'DD'-anomaly for variable 'a' (lines '13'-'17').
+src/com/java/order/Descorder.java:14:	System.out.println is used
+src/com/java/order/Descorder.java:17:	Found 'DD'-anomaly for variable 'a' (lines '17'-'17').
+src/com/java/order/Descorder.java:31:	System.out.print is used
+src/com/java/order/Descorder.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/com/java/order/Descorder.java:34:	System.out.print is used
+src/com/java/order/Descorder.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/com/java/order/Descorder.java:36:	System.out.print is used

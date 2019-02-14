@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title> Body mass index </title>
+<script>
+function bmi(a,z)
+{
+bm=a/(z*z);
+}
+</script> 
+</head>
+<body>
+<script>
+var b= prompt("enter marks's mass in kg's ","enter in kg's");
+var c= prompt("enter marks's height in meter","enter in meter");
+var d= prompt("enter jhon's mass in kg's","enter in kg's");
+var e= prompt("enter jhon's height in meter","enter in meter");
+if(bmi(b,c)>bmi(d,e))
+{
+document.write("mark's BMI is greater than jhon");
+}
+else
+{
+document.write("jhon's BMI is greater than mark's");
+} 
+</script>
+</body>
+</html>
