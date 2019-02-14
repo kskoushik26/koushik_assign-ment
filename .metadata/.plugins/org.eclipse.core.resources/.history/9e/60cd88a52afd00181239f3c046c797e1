@@ -1,0 +1,8 @@
+package com.koushik.myAssignment;
+
+public class Adress 
+{
+	public String street;
+	public String city;
+
+}

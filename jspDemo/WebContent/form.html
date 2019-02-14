@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student registration</title>
+</head>
+<body>
+<form action="studentresp.jsp" method="post">
+
+First name: <input type="text" name="firstname" /><br>
+Last name : <input type="text" name="lastname" /><br>
+
+<select name="country">
+<option> Brazil </option>
+<option> India  </option>
+<option> America </option>
+<option> Africa </option>
+</select><br>
+
+Favourite language:
+<input type="radio" name="favouriteone" value="java">java
+<input type="radio" name="favouriteone" value="c">c
+<input type="radio" name="favouriteone" value="c+">C+
+<input type="radio" name="favouriteone" value="php">php
+<br>
+Favourite language2:
+<input type="checkbox" name="favourites" value="java">java
+<input type="checkbox" name="favourites" value="c">c
+<input type="checkbox" name="favourites" value="c+">C+
+<input type="checkbox" name="favourites" value="php">php
+ <br>
+ <input type="submit" value="submit" />
+</form>
+
+</body>
+</html>

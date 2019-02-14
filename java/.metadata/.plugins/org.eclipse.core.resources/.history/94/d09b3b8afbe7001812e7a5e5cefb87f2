@@ -1,0 +1,16 @@
+package name;
+
+public class jag {
+     int empid;
+     String name;
+     int age;
+
+       jag()
+       {
+    	   empid=111;
+    	   name="jagadish";
+    	   age=17;
+    	   }
+       
+       
+}

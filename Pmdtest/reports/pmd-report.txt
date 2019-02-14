@@ -1,0 +1,7 @@
+src/com/koushik/test/TestingPmd.java:3:	Header comments are required
+src/com/koushik/test/TestingPmd.java:4:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/koushik/test/TestingPmd.java:5:	Parameter 'args' is not assigned and could be declared final
+src/com/koushik/test/TestingPmd.java:5:	Public method and constructor comments are required
+src/com/koushik/test/TestingPmd.java:6:	Avoid using final local variables, turn them into fields
+src/com/koushik/test/TestingPmd.java:7:	Avoid using final local variables, turn them into fields
+src/com/koushik/test/TestingPmd.java:11:	System.out.println is used

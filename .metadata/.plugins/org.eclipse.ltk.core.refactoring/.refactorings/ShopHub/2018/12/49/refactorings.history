@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ShopHub/WebContent/forget.html&apos; to &apos;forgot.html&apos;" description="Rename resource &apos;forget.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/forget.html" name="forgot.html" stamp="1544098646894" updateReferences="true"/>
+</session>
